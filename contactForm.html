@@ -1,57 +1,33 @@
 <!DOCTYPE html>
  <html lang="en">
-
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- My link with the styles -->
 <link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./styleHeaderText.css">
+<link rel="stylesheet" href="./styleNavBar.css">
+
 <title>Nancy Projects</title>
 </head>
 <body>
    <header>
-       <div class="mobile-header" style="border: 2px solid #8246af;">
-           <img src="./img/Test1.png" alt="The She Codes Logo" class="logo">
-           <button type="button" class="hamburger-button">
-               <img class="hamburger-icon" src="./img/hamburger.svg"
-                   alt="Three horizontal lines, positioned one above the other." />
-           </button>
-              <h2>if you can imagine you can achieve it............. </h2>
+       <div class="mobile-header" >
+               <h3 class="animate-charcter">CCC</h3>
+               <img src="./img/LogoMove.gif" alt="Logo" class="logo">
+               <!--COURAGE CURIOSITY AND CARE-->
        </div>
-       <nav class="desktop-nav" aria-label="Primary" style="border: 2px solid #8246af;">
-           <ul>
-              
-               <li>
-                   <a href="">Back to the main page</a>
-               </li>
-               <li>
-                   <a href="">Blog</a>
-               </li>
-             
-           </ul>
-       </nav>
-       <nav class="mobile-nav display-none" aria-label="Primary">
-           <ul>
-               <li>
-                   <a href="">Project1</a>
-               </li>
-               <li>
-                   <a href="">Project2</a>
-               </li>
-               <li>
-                   <a href="">Project3</a>
-               </li>
-               <li>
-                   <a href="">Blog</a>
-               </li>
-               <li>
-                   <a href="">Contact</a>
-               </li>
-           </ul>
-       </nav>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Automation</a>
+  <a href="index.html">Database</a>
+  <a href="index.html">Jewelry</a>
+  <a href="index.html">Blog</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
    </header>
-   
    <section class="contact-form">
        <h2>Get in touch</h2>
        <form>
@@ -61,7 +37,7 @@
            <select name="city-selection" id="city">
                <option value="Brisbane">Brisbane</option>
                <option value="Perth">Perth</option>
-               <option value="Moon">The Moon</option>
+               <option value="Moon">Melbourne</option>
            </select>
           <label for="message">Your Message</label>
           <textarea name="message-text" id="message" rows="10"></textarea>
@@ -69,19 +45,19 @@
        </form>
    </section>
     <footer>
-       <a href="https://www.instagram.com/shecodesaus/" title="@shecodesaus on Instagram">
-           <img class="socials-icon" src="./img/instagram.svg"
-               alt="The Instagram logo: a rounded square camera with a purple-orange gradient filling the lines" />
+       <a href="#" >
+           <img class="socials-icon" src="./img/instagram.svg"/>
        </a>
-       <a
-           href="https://join.slack.com/t/shecodesaus/shared_invite/enQtNzQ3ODk1OTQzODc3LTQ2ZWFmNzM0NjE1MjA0NTI3YjJkMWMyYWVjMDU3ZThhODJmMTk4YmRjZGMzZDRhZDBhODQwNzdlYmJhNDg1YjE">
-           <img class="socials-icon" src="./img/slack.svg" alt="The Slack logo: a colourful deconstructed hashtag" />
+       <a href="#">
+           <img class="socials-icon" src="./img/slack.svg"/>
        </a>
-       <a href="https://github.com/SheCodesAus/">
+        <a href="#">
+           <img class="socials-icon" src="./img/icon-facebook-logo.png"/>
+       </a>
+       <a href="https://github.com/NancyVale/">
            <img class="socials-icon" src="./img/github.svg"
                alt="The Github logo: a black circle with the silhouette of a white cat, with one tentacle arm" />
        </a>
    </footer>
-
 </body>
 </html>
