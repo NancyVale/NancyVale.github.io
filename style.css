@@ -165,9 +165,8 @@ html {
    background-color: var(--brand);
    padding: 56px 16px;
    border-radius: 10px;
-   margin: 5px 10px;
-   
-      display: flex;
+   margin: 5px 10px; 
+  display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 32px; /* Optional: space between the divs */
@@ -185,8 +184,13 @@ html {
 
  .hero-text {
   flex: 1;
-  
-  
+}
+
+.profile_text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #2e2c2c;
+  font-family:Arial, Helvetica, sans-serif
 }
 
 .hero-image {
@@ -194,7 +198,6 @@ html {
   align-items: center;
   justify-content: center;
   gap: 16px; /* space between button and image */
-  /*border: 2px solid #8246af;*/
 }
 
 .hero-image img {
@@ -229,24 +232,12 @@ html {
    transition: all 0.3s ease;
  }
 
-/* article:nth-child(1) {
-  background-color: #a2dbd5;
-}
-article:nth-child(2) {
-  background-color: #ffa300;
-}
-article:nth-child(3) {
-  background-color: #cdb5df;
-}*/
-
-
  .hero_footer {
    background-color: var(--brand);
    border-radius: 10px;
    margin: 5px 10px;
-    border: 2px solid #8246af;
-      display: flex;
-  align-items: center;
+   display: flex;
+   align-items: center;
  }
 
 article:nth-child(2) {
